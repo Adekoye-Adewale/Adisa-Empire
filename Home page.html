@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<title>ADISA FREESTYLE</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+        
+    </style>
+</head>
+
+<body id="body">
+    <header id="header">
+        <div class="smalllogo">
+            <a href="#welcome-section" class="logolink">
+                <h2> <i class="fas fa-code"></i> Adisa Freestyle</h2>
+            </a>
+        </div>
+        <button class="nav-toggle">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav" id="navbar">
+            <div class="logo">
+                <a class="a_logo" href="#" id="logo">
+                    <img src="./images/logo.png" alt="my logo"width="75" height="75">
+                </a>
+            </div>
+
+            <ul class="nav__list" id="navlinkitems">
+                <li class="nav__item">
+                    <a href="#home-section" class="nav__link" id="home">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about-section" class="nav__link" id="about">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills-section" class="nav__link" id="service">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#projects-section" class="nav__link" id="work">Work</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#contacts-section" class="nav__link" id="contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section one" id="home-section">
+        <div>
+            <p class="home-h">Web Devel​oper.</p>
+            <p class="home-p"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                Quisque malesuada arcu diam, eget congue tortor vehicula non.
+            </p>
+        </div>
+    </section>
+
+    <section class="section two" id="about-section">
+        <div class="about-h">
+            <img class="about-img" src="/images/vector1.png" alt="Adisa-vector1">
+       </div>
+        
+       <div>
+           <p class="about-p">​Let’s explore and create a solid digital space together.</p>
+           ​<h2 class="about-h">A ​Passionate Web Designer.</h2>
+           <p class="about-pa">​My name is Adekoye Adewale, I am a WordPress web designer, converting 
+           every possible web dream to a reality. I work best within and across 
+           teams to solve problems, create new ideas and design mean​ingful 
+           experiences for clients and their users.
+        </p>
+        </div>
+    </section>
+    <section class="section three" id="skills-section">
+        <p>Hello there</p>
+    </section>
+    <section class="section four" id="projects-section">
+            <main class="page-content">
+                <div class="card">
+                    <div class="content">
+                        <h2 class="title">Work 1</h2>
+                        <p class="des">Adisa create website using html,css, javascript,php</p>
+                        <button class="btn">Visit Website</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2 class="title">Work 2</h2>
+                        <p class="des">Adisa create website using html,css, javascript,php</p>
+                        <button class="btn">Visit Website</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2 class="title">Work 3</h2>
+                        <p class="des">Adisa create website using html,css, javascript,php</p>
+                        <button class="btn">Visit Website</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2 class="title">Work 4</h2>
+                        <p class="des">Adisa create website using html,css, javascript,php</p>
+                        <button class="btn">Visit Website</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2 class="title">Work 5</h2>
+                        <p class="des">Adisa create website using html,css, javascript,php</p>
+                        <button class="btn">Visit Website</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2 class="title">Work 6</h2>
+                        <p class="des">Adisa create website using html,css, javascript,php</p>
+                        <button class="btn">Visit Website</button>
+                    </div>
+                </div>
+            </main>
+
+    </section>
+    <section class="section five" id="contacts-section">
+
+    </section>
+    <section class="section six" id="footer-section">
+
+    </section>
+    <script>
+
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            document.getElementById("navbar").style.background = "#fff";
+        }
+
+        const navToggle = document.querySelector(".nav-toggle");
+        const navLinks = document.querySelectorAll(".nav__link");
+
+        navToggle.addEventListener("click", () => {
+            document.body.classList.toggle("nav-open");
+        });
+
+        navLinks.forEach((link) => {
+            link.addEventListener("click", () => {
+                document.body.classList.remove("nav-open");
+            });
+        });
+
+    </script>
+</body>
+
+</html>
