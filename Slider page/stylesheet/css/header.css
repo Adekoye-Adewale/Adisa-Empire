@@ -1,13 +1,30 @@
-body {
-    font-family: -apple-system, 
-                 BlinkMacSystemFont, 
-                 "Segoe UI", 
-                 Roboto, 
-                 Oxygen-Sans, 
-                 Ubuntu, 
-                 Cantarell, 
-                 "Helvetica Neue", 
-                 sans-serif;
-    font-size: 20px;
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 2;
+}
+
+.left-top{
+    color: rgb(255, 255, 255);
     
- }
+}
+
+.menu a{
+    display: block;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: rgb(255, 255, 255);
+    border: 5px;
+    transform: translateX(-10%);
+    text-decoration: line-through;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgb(201, 39, 39);
+}
+
+
