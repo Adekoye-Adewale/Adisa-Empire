@@ -8,7 +8,11 @@ header{
 
 .left-top{
     color: rgb(255, 255, 255);
-    
+    cursor: pointer;
+}
+
+.logo {
+    cursor: pointer;
 }
 
 .menu a{

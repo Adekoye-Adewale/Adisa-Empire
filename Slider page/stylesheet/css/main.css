@@ -18,6 +18,15 @@ body {
     width: 100vw;
     top: 0;
     left: 0;
-    background-color: blueviolet;
+    background-image: linear-gradient(120deg,
+                      #aa208f,#7c216a,#d133b2,
+                      #28afc7,#313ab4,#2073aa,
+                      #f44444,#882518,#f44444);
+    background-size: 500%;
+    animation: gradiant 25s linear infinite;
     z-index: 1;
+}
+@keyframes gradiant {
+    from{ background-position: 0; }
+    to{ background-position: 50%; }
 }
