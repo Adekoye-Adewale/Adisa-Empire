@@ -1,0 +1,41 @@
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.637);
+    height: 100vh;
+    width: 450px;
+    z-index: 99;
+    padding: 20px;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-top span {
+    cursor: pointer;
+}
+
+.nav-left-top {
+    display: block;
+}
+
+.nav-top span {
+    font-size: 30px;
+}
+
+.nav-menu {
+    display: block;
+    position: relative;
+    left: 0;
+    top: 10%;
+    line-height: 4em;
+    text-align: center;
+}
+
+.nav-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
