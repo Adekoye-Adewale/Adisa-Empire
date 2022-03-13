@@ -56,3 +56,12 @@ body {
     from{ background-position: 0; }
     to{ background-position: 50%; }
 }
+
+svg text {
+    font-size: 7rem;
+    stroke-width: 2px;
+    fill: transparent;
+    stroke: #ffffff;
+    letter-spacing: 2px;
+    animation: effect 6s infinite alternate;
+  }
