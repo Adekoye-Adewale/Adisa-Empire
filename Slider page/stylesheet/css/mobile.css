@@ -1,11 +1,12 @@
 .mobile-nav {
     position: fixed;
     top: 0;
+    left: 0;
     background-color: rgba(0, 0, 0, 0.637);
-    height: 100vh;
-    width: 450px;
+    height: 100%;
+    width: 100%;
     z-index: 99;
-    padding: 20px;
+    padding: 20px 10px;
 }
 
 .nav-top {
@@ -13,22 +14,24 @@
     justify-content: space-between;
 }
 
-.nav-top span {
-    cursor: pointer;
-}
-
 .nav-left-top {
     display: block;
 }
 
 .nav-top span {
-    font-size: 30px;
+    background-color: rgb(26, 26, 26);
+    padding: 5px 10px;
+    border-radius: 100%;
+    border: solid 2px rgb(70, 62, 62);
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .nav-menu {
     display: block;
     position: relative;
-    left: 0;
+    left: 0%;
+    right: 0%;
     top: 10%;
     line-height: 4em;
     text-align: center;
@@ -37,5 +40,13 @@
 .nav-bottom {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    
+    margin-top: 120px;
+}
+
+@media (min-width: 600px) {
+    .mobile-nav{
+        display: none;
+    }
+    
 }

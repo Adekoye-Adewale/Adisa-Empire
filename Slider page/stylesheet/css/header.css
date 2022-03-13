@@ -31,4 +31,8 @@ header{
     text-decoration-color: rgb(201, 39, 39);
 }
 
-
+@media (max-width: 600px) {
+    .left-top{
+        display: none;
+    }
+}
