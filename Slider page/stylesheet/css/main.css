@@ -65,3 +65,13 @@ svg text {
     letter-spacing: 2px;
     animation: effect 6s infinite alternate;
   }
+
+
+
+  .page {
+      display: none;
+  }
+
+  .page:active {
+      display: block;
+  }

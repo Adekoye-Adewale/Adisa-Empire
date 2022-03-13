@@ -31,10 +31,10 @@
     </div>
 
     <div class="menu">
-            <a href="#home">Home</a>
-            <a href="#home">About</a>
-            <a href="#home">Portfolio</a>
-            <a href="#home">Blog</a>
+            <a class="menu-btn" href="#home">Home</a>
+            <a class="menu-btn" href="#About">About</a>
+            <a class="menu-btn" href="#Portfolio">Portfolio</a>
+            <a class="menu-btn" href="#Blog">Blog</a>
     </div>
 </header>
 
@@ -50,10 +50,10 @@
     </div>
 
     <div class="nav-menu">
-        <div>Home</div>
-        <div>About</div>
-        <div>Portfolio</div>
-        <div>Blog</div>
+        <div data-id="Home">Home</div>
+        <div data-id="About">About</div>
+        <div data-id="Portfolio">Portfolio</div>
+        <div data-id="Blog">Blog</div>
     </div>
 
     <div class="nav-bottom">
@@ -69,6 +69,21 @@
         <svg width="40vw" height="20vh"><text x="%" y="70%">Very Soon</text></svg>
     </section>
 
+    <p class="page" id="Home">
+            Home start here
+    </p>
+
+    <p class="page" id="About">
+        About start here
+    </p>
+
+    <p class="page" id="Portfolio">
+        Portfolio start here
+    </p>
+
+    <p class="page" id="Blog">
+        Blog start here
+    </p>
 </div>
 
 
@@ -83,3 +98,11 @@
     <div>follow me icon</div>
     <div>chat me icon</div>
 </footer>
+
+<script>
+    const tabs = document.querySelector('body');
+    const tabButton = document.querySelectorAll('menu-btn');
+    const contents = document.querySelectorAll('page');
+
+    tab.onclick = e 
+</script>
