@@ -58,7 +58,7 @@ body {
 }
 
 svg text {
-    font-size: 7rem;
+    /* font-size: 7rem; */
     stroke-width: 2px;
     fill: transparent;
     stroke: #ffffff;
@@ -66,6 +66,9 @@ svg text {
     animation: effect 6s infinite alternate;
   }
 
+  .svg_icon {
+      font-size: 24px;
+  }
 
 
   .page {
@@ -73,5 +76,5 @@ svg text {
   }
 
   .page:active {
-      display: block;
+      display: blockl;
   }
