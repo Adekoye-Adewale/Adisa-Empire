@@ -6,9 +6,16 @@ header{
     z-index: 2;
 }
 
-.left-top{
+.left-top {
     color: rgb(255, 255, 255);
     cursor: pointer;
+}
+
+.left-top div:hover {
+    transform: translateX(10%);
+    text-decoration: line-through;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgb(201, 39, 39);
 }
 
 .logo {

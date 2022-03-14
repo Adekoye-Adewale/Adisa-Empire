@@ -11,6 +11,13 @@ footer {
     display: flex;
     justify-content: space-between;
     z-index: 20;
-    position: relative;
-    top: 440px;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
 }
+
+.bottom-right {
+    display: block;
+}
+
