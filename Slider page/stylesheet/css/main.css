@@ -71,10 +71,13 @@ svg text {
   }
 
 
-  .page {
+  .content {
       display: none;
+      padding: 20px 40px;
+      text-align: center;
+      margin: 0 auto;
   }
 
-  .page:active {
-      display: blockl;
+  .content.active {
+      display: block;
   }
