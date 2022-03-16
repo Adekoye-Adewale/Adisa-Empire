@@ -1,0 +1,58 @@
+.wrapper {
+    width: 50%;
+    margin: auto;
+    border-radius: 0px;
+    background: #8c87e6;
+    box-shadow: 30px 30px 60px #252525,
+        -30px -30px 60px #414141;
+}
+
+.contentWrapper {
+    margin-left: 20%;
+}
+
+.buttonWrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 23.8rem;
+    top: 11rem;
+}
+
+button {
+    letter-spacing: 3px;
+    border: none;
+    padding: 10px;
+    color: #232c3d;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #bcb9f6;
+    color: #fff;
+}
+
+button.active {
+    background-color: #bcb9f6;
+    color: #333;
+}
+
+.active {
+    background-color: white;
+}
+
+p {
+    text-align: left;
+    padding: 10px;
+}
+
+.content {
+    display: none;
+    padding: 23px 28px 38px 68px;
+}
+
+.content.active {
+    display: block;
+}
