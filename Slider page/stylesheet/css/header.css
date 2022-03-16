@@ -22,21 +22,31 @@ header{
     cursor: pointer;
 }
 
-.menu a{
+.tab-button{
     display: block;
     color: white;
     cursor: pointer;
     text-decoration: none;
 }
 
-.menu a:hover {
+.tab-button:hover {
     color: rgb(255, 255, 255);
     border: 5px;
     transform: translateX(-10%);
     text-decoration: line-through;
     text-decoration-thickness: 5px;
     text-decoration-color: rgb(201, 39, 39);
+    cursor: pointer;
+    transition: 0.9s;
 }
+
+
+.tab-button.active {
+    color: rgb(0, 0, 0);
+    text-decoration: line-through 10px rgb(201, 39, 39);
+}
+
+
 
 @media (max-width: 600px) {
     .left-top{
