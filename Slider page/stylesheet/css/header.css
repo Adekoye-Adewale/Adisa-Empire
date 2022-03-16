@@ -37,7 +37,7 @@ header{
     text-decoration-thickness: 5px;
     text-decoration-color: rgb(201, 39, 39);
     cursor: pointer;
-    transition: 0.9s;
+    transition: 0.5s cubic-bezier(1,-1.14,.07,1);
 }
 
 
