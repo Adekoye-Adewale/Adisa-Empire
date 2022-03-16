@@ -34,9 +34,9 @@ body {
     to{ background-position: 50%; }
 }
 
-.active {
+/* .active {
     background-color: rgb(167, 80, 80);
-}
+} */
 
 .content {
     display: none;

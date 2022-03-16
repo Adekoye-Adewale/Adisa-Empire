@@ -43,12 +43,17 @@ header{
 
 .tab-button.active {
     color: rgb(0, 0, 0);
-    text-decoration: line-through 10px rgb(201, 39, 39);
+    text-decoration: line-through 4px rgb(201, 39, 39);
+    background-color: none;
 }
 
 
 
 @media (max-width: 600px) {
+    .wrapper{
+        display: none;
+    }
+
     .left-top{
         display: none;
     }
