@@ -1,0 +1,26 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-layout {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.home-left h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.home-left h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.home-right {
+    max-width: 100%;
+    width: 50%;
+
+}
