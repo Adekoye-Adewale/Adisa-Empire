@@ -29,12 +29,11 @@
 .home-main h1 {
     font-size: 60px;
     font-weight: 900;
-    line-height: 1.1;
-    margin: -5px 0px;
+    line-height: 1.8;
 }
 
 img {
     max-width: 100%;
-    width: 50%;
-    margin-left: auto;
+    width: 45%;
+    padding-right: 50px;
 }
