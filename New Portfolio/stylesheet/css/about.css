@@ -107,3 +107,24 @@ body {
     color: rgb(198, 129, 255);
 }
 
+@media (max-width: 600px) {
+    
+    body {
+        font-size: 16px;
+    }
+
+    .about-section img {
+        max-width: 100%;
+        width: 150px;
+        padding-left: 20px;
+    }
+    
+    .about-text {
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+    
+
+
+}
+
