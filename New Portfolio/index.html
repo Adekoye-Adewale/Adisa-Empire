@@ -131,8 +131,34 @@
 <footer>
     <div>Start A Project <img src="./stylesheet/images/adisa-empire-mail-icons8.svg" alt="my logo"width="25" height="25"></div>
     <div class="bottom-right">
-        <div>follow me icon</div>
-        <div>chat me icon</div>
+    
+        <div class="icowrapper">
+            <div class="menu-object">
+                <ul class="toggle">
+                    <li class="ico01 normalico"></li>
+                    <li class="move-ico ico02">
+                        <a href="" class="link link01">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="move-ico ico03">
+                        <a href="" class="link link02">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </li>
+                    <li class="move-ico ico04">
+                        <a href="" class="link link03">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="move-ico ico05">
+                        <a href="" class="link link04">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 
 
@@ -142,7 +168,18 @@
 
 </body>
 
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/dd8c49730d.js"></script>
 
+    <script>
+        function toggle() {
+            $('.ico01').click(function () {
+                $('.icowrapper').toggleClass('active');
+            })
+        }
+
+        toggle();
+    </script>
 
 <script>
     const tabs = document.querySelector(".wrapper");

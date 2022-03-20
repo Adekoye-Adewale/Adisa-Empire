@@ -74,8 +74,8 @@ p {
     left: 0;
     cursor: pointer;
     background-image: linear-gradient(120deg,
-                    #ffdbf8,#d1c4ce,#ffdbf8,
-                    #b999d3,#ffdbf8,#e1bcff);
+                    #ffdbf8,#e295d0,#ffdbf8,
+                    #b999d3,#ffdbf8,#ffbcf0);
     background-size: 1000%;
     animation: gradiant1 9s linear infinite;
     z-index: 1;

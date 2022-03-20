@@ -47,7 +47,7 @@ body {
 }
 
 .wrapper .icon i {
-    color: #fff;
+    color: rgb(0, 0, 0);
     transition: .4s linear;
 }
 
@@ -86,9 +86,9 @@ body {
 
 .wrapper .icon:hover span,
 .wrapper .icon:hover .tooltip {
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 025px rgba(0, 0, 0, 0.1);
     transform: scale(.8);
-    transition: .4s linear;
+    transition: .5s linear;
 }
 
 .wrapper .icon:hover::before {
@@ -96,7 +96,7 @@ body {
     border-left: 4px solid;
     border-right: 4px solid;
     transform: skewX(20deg);
-    color: #fff;
+    color: rgb(96, 50, 148);
 }
 
 .wrapper .icon:hover::after {
@@ -104,6 +104,6 @@ body {
     border-top: 4px solid;
     border-bottom: 4px solid;
     transform: skewY(-20deg);
-    color: #fff;
+    color: rgb(198, 129, 255);
 }
 

@@ -21,3 +21,148 @@ footer {
     display: block;
 }
 
+
+
+ul {
+    /* position: relative;*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: revert;
+}
+
+li {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 8px;
+}
+
+.ico01 {
+    background-color: rgb(247, 208, 255);
+    position: relative;
+    z-index: 4;
+    box-shadow: 1px 1px 20px rgb(63, 63, 63);
+}
+
+.ico02 {
+    background-color: #d91e85;
+    transition: transform 1.2s cubic-bezier(0.77, 0, 0.175, 1);
+    z-index: 3;
+}
+
+.ico03 {
+    background-color: #DB4437;
+    transition: transform 1.2s cubic-bezier(0.77, 0, 0.175, 1) 0.4s;
+    z-index: 2;
+}
+
+.ico04 {
+    background-color: #00acee;
+    transition: transform 1.2s cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
+    z-index: 1;
+}
+
+
+.ico05 {
+    background-color: #3b5998;
+    transition: transform 1.2s cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
+    z-index: 1;
+}
+
+.move-ico {
+    position: absolute;
+    top: 0;
+}
+
+.active .ico02 {
+    transform: translateY(calc(-54px + -10px));
+    transition: transform 1.2s cubic-bezier(0.77, 0, 0.175, 1) 0.16s;
+}
+
+.active .ico03 {
+    transform: translateY(calc(-54px * 2 + -10px * 2));
+    transition: transform 1.2s cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
+}
+
+.active .ico04 {
+    transform: translateY(calc(-54px * 3 + -10px * 3));
+    transition: transform 1.2s cubic-bezier(0.77, 0, 0.175, 1) 0.4s;
+}
+
+.active .ico05 {
+    transform: translateY(calc(-54px * 4 + -10px * 4));
+    transition: transform 1.2s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+
+.menu-object {
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; */
+    /* width: calc(54px * 4 + 30px * 3); */
+    /* height: 54px; */
+}
+
+.menu-object .ico01::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 4px;
+    height: 24px;
+    border-radius: 100%;
+    margin: auto;
+    background-color: #111;
+    transition: transform 0.118s cubic-bezier(0.77, -3, 0.175, 1);
+}
+
+.menu-object .ico01::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 24px;
+    border-radius: 100%;
+    height: 4px;
+    margin: auto;
+    background-color: #111;
+    transition: transform 0.88s cubic-bezier(0.77, -4, 0.175, 5);
+}
+
+.menu-object .link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    line-height: 1;
+    font-size: 24px;
+
+}
+
+.menu-object .link i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.active .menu-object .ico01::before {
+    transform: rotate(45deg);
+}
+
+.active .menu-object .ico01::after {
+    transform: rotate(45deg);
+}
+
+
