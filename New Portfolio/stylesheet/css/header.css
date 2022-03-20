@@ -7,15 +7,18 @@ header{
 }
 
 .left-top {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
+/* .left-top div {
+    border: solid 2px rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 50%;
+} */
+
 .left-top div:hover {
-    transform: translateX(10%);
-    text-decoration: line-through;
-    text-decoration-thickness: 5px;
-    text-decoration-color: rgb(201, 39, 39);
+    transform: translateX(15%);
     transition: 0.5s cubic-bezier(1,-1.14,.07,1);
 }
 
@@ -36,7 +39,7 @@ header{
     transform: translateX(-10%);
     text-decoration: line-through;
     text-decoration-thickness: 5px;
-    text-decoration-color: rgb(201, 39, 39);
+    text-decoration-color: rgb(0, 0, 0);
     cursor: pointer;
     transition: 0.5s cubic-bezier(1,-1.14,.07,1);
 }
@@ -44,16 +47,16 @@ header{
 
 .tab-button.active {
     color: rgb(0, 0, 0);
-    text-decoration: line-through 4px rgb(201, 39, 39);
+    text-decoration: line-through 4px rgb(255, 255, 255);
     background-color: none;
 }
 
 
 
 @media (max-width: 600px) {
-    .wrapper{
+    /* .wrapper{
         display: none;
-    }
+    } */
 
     .left-top{
         display: none;

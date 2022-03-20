@@ -50,3 +50,41 @@ li {
     margin-bottom: 45px;
     display: none;
 }
+
+@media (max-width: 600px) {
+    body {
+        font-family: Nunito;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .home-layout {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        
+    }
+
+    .home-main h3 {
+        font-size: 18px;
+        word-spacing: 1px;
+        letter-spacing: 0px;
+    }
+    
+    .home-main h1 {
+        font-size: 20px;
+        font-weight: 900;
+        margin: -20px 0px;
+    }
+
+    img {
+        max-width: 100%;
+        width: 150px;
+        padding-right: 20px;
+    }
+}

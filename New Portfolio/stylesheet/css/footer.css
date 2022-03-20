@@ -107,7 +107,7 @@ li {
     left: 0;
     margin: auto; */
     /* width: calc(54px * 4 + 30px * 3); */
-    /* height: 54px; */
+    height: 50%;
 }
 
 .menu-object .ico01::before {
