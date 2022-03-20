@@ -58,9 +58,21 @@ p {
     left: 0;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-
+.tech-icons {
+    display: block;
+    padding: 20px;
+    padding-right: 20px;
+    padding-left: 5px;
+    border: solid 3px rgb(24, 17, 17);
+    border-left: 0px;
+    border-radius: 0% 70% 70% 0%; 
+    position: absolute;
+    top: 35%;
+    left: 0;
+    background-color: bisque;
+}
 
 
 
