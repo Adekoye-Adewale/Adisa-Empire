@@ -22,15 +22,17 @@ body {
 }
  
 .home-main h3 {
-    font-family: Tangerine;
-    font-size: 40px;
-    font-weight: 700;
+    font-family: Bellada;
+    font-size: 35px;
+    font-weight: 500;
     line-height: 0.5;
+    word-spacing: -10px;
+    letter-spacing: 5px;
 }
 
 .home-main h1 {
-    font-family: Quicksand;
-    font-size: 60px;
+    font-family: Pacifico;
+    font-size: 70px;
     font-weight: 900;
     line-height: 1.8;
     margin: -10px 0px;
@@ -40,4 +42,11 @@ img {
     max-width: 100%;
     width: 500px;
     padding-right: 50px;
+}
+
+
+li {
+    height: 45px;
+    margin-bottom: 45px;
+    display: none;
 }

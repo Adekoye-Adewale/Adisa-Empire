@@ -1,13 +1,6 @@
 body {
-    font-family: -apple-system, 
-                 BlinkMacSystemFont, 
-                 "Segoe UI", 
-                 Roboto, 
-                 Oxygen-Sans, 
-                 Ubuntu, 
-                 Cantarell, 
-                 "Helvetica Neue", 
-                 sans-serif;
+    font-family: Quicksand;
+    font-weight: 600;
     font-size: 20px;
     color: cornsilk;
     border: 20px;
@@ -23,8 +16,8 @@ body {
     top: 0;
     left: 0;
     background-image: linear-gradient(120deg,
-                      #aa208f,#7c216a,#d133b2,
-                      #28afc7,#313ab4,#2073aa,
+                      #dd53c2,#ca91bf,#d133b2,
+                      #28afc7,#9396c2,#39dee4,
                       #f44444,#882518,#f44444);
     background-size: 500%;
     animation: gradiant 25s linear infinite;
