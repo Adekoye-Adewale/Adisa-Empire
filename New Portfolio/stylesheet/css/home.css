@@ -1,7 +1,7 @@
 body {
-    font-family: Tangerine;
-    font-size: 40px;
-    font-weight: 600;
+    font-family: Nunito;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .home-layout {
@@ -22,20 +22,20 @@ body {
 }
  
 .home-main h3 {
-    font-family: Bellada;
+    font-family: Nunito;
     font-size: 35px;
-    font-weight: 500;
-    line-height: 0.5;
+    font-weight: 700;
     word-spacing: -10px;
     letter-spacing: 5px;
 }
 
 .home-main h1 {
-    font-family: Pacifico;
+    font-family: Poppins;
     font-size: 70px;
     font-weight: 900;
     line-height: 1.8;
-    margin: -10px 0px;
+    margin: -30px 0px;
+    margin-top: -50px;
 }
 
 img {
