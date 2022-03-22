@@ -110,8 +110,6 @@ p {
 
 
 
-
-
 @media (max-width: 600px) {
     .tech-icons {
         padding: 10px;
@@ -121,6 +119,7 @@ p {
         position: absolute;
         top: 70%;
         left: 0;
+    }
     
     .tech-tooltip {
         position: absolute;
