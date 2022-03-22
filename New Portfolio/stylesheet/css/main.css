@@ -115,10 +115,11 @@ p {
         padding: 10px;
         border-left: 0px;
         box-shadow: 1px 0px 50px #bbbbbb;
-        border-radius: 0% 70% 70% 0%; 
-        position: absolute;
-        top: 70%;
-        left: 0;
+        border-radius: 70% 0% 0% 70%;
+        position: relative;
+        top: 30%;
+        left: 100%;
+        width: 60%;
     }
     
     .tech-tooltip {
