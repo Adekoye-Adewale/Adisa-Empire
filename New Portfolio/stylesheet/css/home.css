@@ -58,9 +58,11 @@ li {
     }
 
     .home-layout {
-        display: flex;
+        display: grid;
+        grid-template-columns: auto;
+        
         align-items: center;
-        justify-content: center;
+        justify-items: center;
         position: absolute;
         height: 100%;
         width: 100%;
@@ -70,6 +72,7 @@ li {
     }
 
     .home-main {
+        text-align: center;
         padding-left: 20px;
         padding-right: 15px;
     }
@@ -88,7 +91,7 @@ li {
 
     img {
         max-width: 100%;
-        width: 150px;
-        padding-right: 20px;
+        width: 500px;
+        padding-right: 0px;
     }
 }
