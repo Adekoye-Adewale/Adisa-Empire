@@ -74,8 +74,8 @@ p {
     left: 0;
     cursor: pointer;
     background-image: linear-gradient(270deg,
-                    #eeeeee,#bebebe,#f7f7f7,
-                    #e0e0e0,#bbbbbb,#e0e0e0);
+                    #ffffff,#5a5a5a,#ffffff,
+                    #ffffff,#5a5a5a,#ffffff);
     background-size: 1000%;
     animation: gradiant1 5s linear infinite;
     z-index: 1;
@@ -113,18 +113,17 @@ p {
 @media (max-width: 600px) {
     .tech-icons {
         padding: 10px;
-        border-left: 0px;
-        box-shadow: 1px 0px 50px #bbbbbb;
+        box-shadow: 1px 0px 50px #9b9b9b;
         border-radius: 70% 0% 0% 70%;
-        position: relative;
-        top: 30%;
-        left: 100%;
-        width: 60%;
+        position: absolute;
+        top: 20%;
+        left: unset;
+        right: 0;    
     }
     
     .tech-tooltip {
         position: absolute;
-        left: 0;
+        right: 0;
         font-size: 16px;
         background-color: #111;
         color: #ffffff;
@@ -138,10 +137,13 @@ p {
     
     .technology img {
         width: 15px;
+        float: right;
+        padding: 5px;
+    
     }
 
     .technology:hover .tech-tooltip {
-        left: 55px;
+        left: -70px;
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
