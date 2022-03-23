@@ -110,31 +110,41 @@ body {
 @media (max-width: 600px) {
     
     body {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .about-section {
         display: grid;
         align-items: center;
         justify-content: center;
-        position: absolute;
+        justify-items: center;
+        /* position: absolute;
         height: 100%;
         width: 100%;
-        top: 0%;
+        top: 0%; */
         align-content: center;
     }
 
     .about-section img {
+        padding: 0px;
         max-width: 100%;
-        width: 150px;
-        padding-left: 20px;
+        width: 200px;
     }
     
     .about-text {
-        padding-left: 15px;
-        padding-right: 20px;
+        text-align: center;
+        padding: 0px 15px;
     }
-    
+
+    .about-text h3 {
+        font-weight: 800;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
 
 
 }
