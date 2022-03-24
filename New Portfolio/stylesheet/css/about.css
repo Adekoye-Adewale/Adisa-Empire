@@ -118,10 +118,10 @@ body {
         align-items: center;
         justify-content: center;
         justify-items: center;
-        position: absolute;
+        /* position: absolute;
         height: 100%;
         width: 100%;
-        top: 0%;
+        top: 0%; */
         align-content: center;
     }
 
