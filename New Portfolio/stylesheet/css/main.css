@@ -4,6 +4,7 @@ body {
     font-size: 20px;
     color: cornsilk;
     border: 20px;
+    line-height: 1.5;
  }
 
 .main-content {
@@ -16,9 +17,8 @@ body {
     top: 0;
     left: 0;
     background-image: linear-gradient(120deg,
-                      #dd53c2,#ca91bf,#d133b2,
-                      #28afc7,#9396c2,#39dee4,
-                      #f44444,#882518,#f44444);
+                      #c06aaf,#9e9354,#c06aaf,
+                      #9e9354,#c06aaf,#28afc7);
     background-size: 500%;
     animation: gradiant 25s linear infinite;
     z-index: 1;
@@ -64,7 +64,7 @@ p {
     display: block;
     padding: 20px;
     padding-right: 15px;
-    padding-left: 5px;
+    padding-left: 10px;
     /* border: solid 3px rgb(24, 17, 17); */
     border-left: 0px;
     box-shadow: 1px 0px 50px #bbbbbb;
@@ -85,6 +85,14 @@ p {
     to{ background-position: 70%; }
     from{ background-position: 30%; }
     to{ background-position: 100%; }
+}
+
+.img-small {
+    width: 20px;
+}
+
+.img-big {
+    width: 30px;
 }
 
 .tech-tooltip {
@@ -112,7 +120,7 @@ p {
 
 @media (max-width: 900px) {
     .tech-icons {
-        padding: 10px;
+        /* padding: 10px; */
         /* box-shadow: 1px 0px 50px #9b9b9b;
         border-radius: 70% 0% 0% 70%;
         position: absolute; */
@@ -121,7 +129,7 @@ p {
         right: 0;     */
     }
     
-    .tech-tooltip {
+    /* .tech-tooltip {
         position: absolute;
         right: 0;
         font-size: 16px;
@@ -134,20 +142,26 @@ p {
         pointer-events: none;
         transition: all 0.3s cubic-bezier(0.68, -0.95, 0.265, 1.55);
     }
-    
+     */
     .technology img {
-        width: 15px;
-        float: right;
-        padding: 5px;
+        /* float: right; */
+        padding: 5px 0px;
     
     }
+    
+    .img-small {
+        width: 10px;
+    }
 
-    .technology:hover .tech-tooltip {
+    .img-big {
+        width: 15px;
+    }
+    /* .technology:hover .tech-tooltip {
         left: -70px;
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
-    }
+    } */
     
 }
 
