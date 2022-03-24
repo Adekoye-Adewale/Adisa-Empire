@@ -1,3 +1,7 @@
+* {
+    user-select: none;
+}
+
 body {
     font-family: Nunito;
     font-size: 25px;

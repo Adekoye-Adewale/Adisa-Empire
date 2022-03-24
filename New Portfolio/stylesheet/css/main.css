@@ -1,3 +1,7 @@
+* {
+    user-select: none;
+}
+
 body {
     font-family: Quicksand;
     font-weight: 600;
