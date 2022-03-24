@@ -110,7 +110,7 @@ p {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .tech-icons {
         padding: 10px;
         box-shadow: 1px 0px 50px #9b9b9b;

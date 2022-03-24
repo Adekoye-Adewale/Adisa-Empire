@@ -107,7 +107,7 @@ body {
     color: rgb(198, 129, 255);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     
     body {
         font-size: 18px;
@@ -118,10 +118,10 @@ body {
         align-items: center;
         justify-content: center;
         justify-items: center;
-        /* position: absolute;
+        position: absolute;
         height: 100%;
         width: 100%;
-        top: 0%; */
+        top: 0%;
         align-content: center;
     }
 
