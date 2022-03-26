@@ -17,11 +17,10 @@ body,
   max-height: 100%;
   margin: 0;
   padding: 0;
-  /* Font styles */
-  font-family: 'Roboto Slab', serif;
+  font-family: 'KumbhSans', serif;
   font-size: 1em;
   line-height: 1.5em;
-  color: #607D8B;
+  color: #1d1d1d;
   letter-spacing: .01em;
 }
 
@@ -29,11 +28,10 @@ body,
   position: relative;
 }
 
-/* Panels */
 .swipe {
   position: relative;
   width: 100%;
-  height: 100%; /* "min-height" doesn't work on Firefox. */
+  height: 100%;
   background: #eee;
   overflow-x: hidden;
 }
@@ -55,7 +53,6 @@ body,
   left: 100%;
 }
 
-/* Info */
 .info {
   position: absolute;
   width: 80%;
@@ -84,7 +81,6 @@ body,
   -o-transform: translate(-10px, -10px);
   transform: translate(-10px, -10px);
   background: #E91E63;
-  background: #3F51B5;
 }
 
 .buttons {
@@ -124,7 +120,6 @@ body,
   cursor: default;
 }
 
-/* Optional content */
 .optional {
   width: 80%;
   max-width: 680px;
