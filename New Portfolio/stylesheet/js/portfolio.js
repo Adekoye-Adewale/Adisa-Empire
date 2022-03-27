@@ -15,7 +15,7 @@ $(document).ready(function(){
     var bgImg = $layer.attr("data-img");
     $layer.css({
       "background": "url("+bgImg+") no-repeat center",
-      "ackground-size": "cover",
+      "background-size": "cover",
     });
   };
 
@@ -24,7 +24,7 @@ $(document).ready(function(){
     $(".panel").css({
       "transition": "cubic-bezier(.4,.95,.5,1.5) "+speed+"ms"
     });
-  }, 200);
+  }, 100);
 
   //Presets:
   $(".panel:not(:first)").addClass("right");
