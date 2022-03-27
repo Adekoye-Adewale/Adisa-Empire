@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
   //Swipe speed:
-  var speed = "650"; //ms.
+  var speed = "500"; //ms.
 
   //Elements:
   var interactiveElements = $('input, button, a');
