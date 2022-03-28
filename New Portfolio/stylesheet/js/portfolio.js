@@ -4,12 +4,12 @@ $(document).ready(function(){
   //Swipe speed:
   var speed = "500"; //ms.
 
-  //Elements:
+  
   var interactiveElements = $('input, button, a');
   var itemsLength = $('.panel').length;
   var active = 1;
 
-  //Background images:
+  
   for (i=1; i<=itemsLength; i++){
     var $layer = $(".panel:nth-child("+i+")");
     var bgImg = $layer.attr("data-img");
@@ -26,7 +26,7 @@ $(document).ready(function(){
     });
   }, 100);
 
-  //Presets:
+ 
   $(".panel:not(:first)").addClass("right");
 
   //Swipe:
