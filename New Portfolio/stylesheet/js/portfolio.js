@@ -19,7 +19,7 @@ $(document).ready(function(){
     });
   };
 
-  //Transitions:
+  
   setTimeout(function() {
     $(".panel").css({
       "transition": "cubic-bezier(.4,.95,.5,1.5) "+speed+"ms"
@@ -29,7 +29,7 @@ $(document).ready(function(){
  
   $(".panel:not(:first)").addClass("right");
 
-  //Swipe:
+
   function swipeScreen() {
     $('.swipe').on('mousedown touchstart', function(e) {
 
@@ -43,11 +43,11 @@ $(document).ready(function(){
         difference = end-start;
       });
 
-      //On touch end:
+      
       $(window).one('mouseup touchend', function(e) {
         e.preventDefault();
 
-        //Swipe right:
+       
         if (active < itemsLength && difference < -30) {
           $(".panel:nth-child("+active+")").addClass("left");
           $(".panel:nth-child("+(active+1)+")").removeClass("right");
@@ -55,7 +55,7 @@ $(document).ready(function(){
           btnDisable();
         };
 
-        // Swipe left:
+        
         if (active > 1 && difference > 30) {
           $(".panel:nth-child("+(active-1)+")").removeClass("left");
           $(".panel:nth-child("+active+")").addClass("right");
