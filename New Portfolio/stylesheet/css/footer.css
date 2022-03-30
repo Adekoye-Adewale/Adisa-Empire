@@ -21,7 +21,11 @@ footer {
     display: block;
 }
 
-
+.start-project {
+    width: 250px;
+    background-color: #DB4437;
+    padding: 20px;
+}
 
 ul {
     /* position: relative;*/
