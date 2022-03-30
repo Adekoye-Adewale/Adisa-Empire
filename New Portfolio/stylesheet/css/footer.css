@@ -22,6 +22,7 @@ footer {
 }
 
 .start-project {
+    display: none;
     width: 250px;
     background-color: #DB4437;
     padding: 20px;
