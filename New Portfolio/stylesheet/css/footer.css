@@ -22,10 +22,18 @@ footer {
 }
 
 .start-project {
-    display: none;
-    width: 250px;
+    /* display: none; */
+    position: relative;
+    width: 50%;
+    height: 70%;
+    top: -150px;
+    left: 20%;
     background-color: #DB4437;
     padding: 20px;
+}
+
+.start-project form {
+    
 }
 
 ul {
