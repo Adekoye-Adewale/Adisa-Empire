@@ -22,7 +22,7 @@ footer {
 }
 
 .start-project {
-    /* display: none; */
+    display: none;
     position: relative;
     width: 50%;
     height: 70%;
