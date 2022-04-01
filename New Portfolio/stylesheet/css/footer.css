@@ -41,7 +41,11 @@ input {
     width: 100%;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 4px;
-  }
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
 
 ul {
     /* position: relative;*/
