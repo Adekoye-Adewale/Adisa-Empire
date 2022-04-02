@@ -38,9 +38,13 @@ footer {
 }
 
 input {
-    /* width: 100%; */
+    width: 100%;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 4px;
+}
+
+input[type=radio] {
+    width: auto;
 }
 
 input[type=submit] {
