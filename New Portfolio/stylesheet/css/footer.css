@@ -22,7 +22,7 @@ footer {
 }
 
 .start-project {
-    display: none;
+    /* display: none; */
     position: relative;
     width: 50%;
     height: 70%;
@@ -46,16 +46,19 @@ input {
 input[type=submit] {
     width: 100%;
     cursor: pointer;
-    background-color: #DB4437;
+    background-color: #ffffff;
     border: solid #000 5px;
-    padding: 20px 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
     font-size: 20px;
+    font-weight: 500;
+    transition: ease-out;
 }
 
 input[type=submit]:hover {
-    background-color: #ffffff;
-    color: #000;
-    font-weight: 600;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
 }
 
 ul {
