@@ -22,14 +22,16 @@ footer {
 }
 
 .start-project {
-    /* display: none; */
-    position: relative;
-    width: 50%;
-    height: 70%;
-    top: -50px;
-    left: 20%;
-    background-color: #DB4437;
-    padding: 20px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s; 
 }
 
 .start-project form {
@@ -57,12 +59,19 @@ input[type=submit] {
     font-size: 20px;
     font-weight: 500;
     transition: ease-out;
+    transition-delay: 100ms;
+    transition-duration: 300ms;
+    
 }
 
 input[type=submit]:hover {
     background-color: #000000;
     color: rgb(255, 255, 255);
     font-weight: 500;
+}
+
+.start-project-text {
+    cursor: pointer;
 }
 
 ul {

@@ -125,7 +125,8 @@
 
 
 <footer>
-    <div class="start-project">
+    <div id="project-form" class="start-project">
+        <a href="javascript:void(0)" class="close-project-form-btn" onclick="closeForm()">&times;</a>
 
         <form>
             <label for="firstname">First name:</label><br>
@@ -169,7 +170,7 @@
         </form>
 
     </div>
-    <div>Start A Project</div>
+    <div onclick="openForm()" class="start-project-text">Start A Project</div>
     <div class="bottom-right">
     
         <div class="icowrapper">
@@ -210,7 +211,7 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://kit.fontawesome.com/dd8c49730d.js"></script>
-
+    <script src="./stylesheet/js/start-project-form.js"></script>
     <script>
         function toggle() {
             $('.ico01').click(function () {
