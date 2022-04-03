@@ -53,11 +53,15 @@ footer {
     justify-content: space-between;
 }
 
+.form-div-right {
+    text-align: end;
+}
+
 label {
     font-size: 20px;
     font-weight: 400;
     text-shadow: 0 0.1em 0.1em rgba(0, 0, 0, 0.2);
-  transition: color 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+    transition: color 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 
 input {
@@ -79,10 +83,15 @@ input:focus {
 input[type=radio] {
     width: auto;
     cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 
 input[type=radio]:checked {
-    color: #e6e1e0;
+    background-color: #f44;
+    border: #f44;
+    width: 50px;
+    color: #f44;
+    c
 }
 
 input[type=submit] {
@@ -104,6 +113,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #000000;
+    border: solid #fff 3px;
     color: rgb(255, 255, 255);
     font-weight: 500;
 }
