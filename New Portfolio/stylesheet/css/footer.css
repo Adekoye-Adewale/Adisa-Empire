@@ -34,15 +34,44 @@ footer {
     transition: 0.5s; 
 }
 
+.close-project-form-btn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    text-decoration: none;
+    color: gray;
+}
+
 .start-project form {
     margin: 0px auto;
     display: table;
+    position: relative;
+    top: 10%;
+    width: 50%;
+}
+
+.start-project form p {
+    color: #fff;
+    margin: 0px;
+}
+
+.form-div {
+    display: flex;
+    justify-content: space-between;
 }
 
 input {
     width: 100%;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 4px;
+    border: 0px none rgb(0, 0, 0);
+    border-bottom: 2px solid #DB4437;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+input:focus {
+    border-bottom: 2px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
 }
 
 input[type=radio] {
