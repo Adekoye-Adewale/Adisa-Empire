@@ -60,6 +60,7 @@ footer {
 label {
     font-size: 20px;
     font-weight: 400;
+    line-height: 1.8;
     cursor: pointer;
     text-shadow: 1px 0.01em 0.1em #f44;
     transition: color 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
@@ -83,6 +84,7 @@ input:focus {
 input[type=radio] {
     line-height: 1.5;
     width: auto;
+    margin-top: 20px;
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
