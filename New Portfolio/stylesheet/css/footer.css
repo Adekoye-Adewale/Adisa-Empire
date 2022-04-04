@@ -60,13 +60,13 @@ footer {
 label {
     font-size: 20px;
     font-weight: 400;
-    text-shadow: 0 0.1em 0.1em rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    text-shadow: 1px 0.01em 0.1em #f44;
     transition: color 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 
 input {
     width: 100%;
-    height: 25px;
     font-size: 18px;
     color: #b1b1b1;
     border: 0px none rgb(0, 0, 0);
@@ -81,22 +81,25 @@ input:focus {
 }
 
 input[type=radio] {
+    line-height: 1.5;
     width: auto;
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 
+input[type=radio]:hover {
+    box-shadow: 0px 0.01em 0.29em #fff;
+}
+
 input[type=radio]:checked {
-    background-color: #f44;
     border: #f44;
     width: 50px;
+    box-shadow: 0px 0.01em 0.29em #fff;
     color: #f44;
-    c
 }
 
 input[type=submit] {
     width: 100%;
-    height: 60px;
     cursor: pointer;
     color: #000;
     background-color: #ffffff;
@@ -116,6 +119,8 @@ input[type=submit]:hover {
     border: solid #fff 3px;
     color: rgb(255, 255, 255);
     font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0px 0.01em 0.29em #fff;
 }
 
 .start-project-text {
