@@ -161,13 +161,13 @@ li {
 }
 
 .ico03 {
-    background-color: #DB4437;
+    background-color: #2977c9;
     transition: transform 1.2s cubic-bezier(0.77, 0, 0.175, 1) 0.4s;
     z-index: 2;
 }
 
 .ico04 {
-    background-color: #00acee;
+    background-color: #000000;
     transition: transform 1.2s cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
     z-index: 1;
 }
