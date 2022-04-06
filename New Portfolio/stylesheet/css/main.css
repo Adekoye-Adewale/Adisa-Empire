@@ -8,6 +8,8 @@ body {
     font-size: 20px;
     color: cornsilk;
     border: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
     /* line-height: 1.5; */
  }
 
