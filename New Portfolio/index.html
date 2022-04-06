@@ -128,7 +128,7 @@
     <div id="project-form" class="start-project">
         <a href="javascript:void(0)" class="close-project-form-btn" onclick="closeForm()">&times;</a>
 
-        <form data-netlify="true">
+        <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
             <label for="firstname">First name:</label><br>
             <input type="text" id="firstname" name="firstname" value=""><br>
 
@@ -181,7 +181,7 @@
                     <label for="budget4">&#8827 $1000</label><br>
                 </div>
             </div>
-            
+            <div data-netlify-recaptcha="true"></div>
             <br>
             <input type="submit" value="Submit">
 
