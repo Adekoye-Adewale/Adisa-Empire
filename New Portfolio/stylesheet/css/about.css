@@ -134,6 +134,7 @@ body {
     }
 
     .about-section img {
+        display: none;
         padding: 0px;
         max-width: 100%;
         width: 200px;
