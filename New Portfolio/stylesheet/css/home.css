@@ -93,6 +93,7 @@ li {
         font-size: 30px;
         font-weight: 900;
         margin: -20px 0px;
+        text-shadow: 0.2px 0.01em 0.01em #000;
     }
 
     img {

@@ -1,3 +1,7 @@
+*{
+    font-family: quicksand;
+}
+
 footer {
     font-family: quicksand;
     display: flex;
@@ -62,7 +66,7 @@ label {
     font-weight: 400;
     line-height: 1.8;
     cursor: pointer;
-    text-shadow: 1px 0.01em 0.1em #f44;
+    /* text-shadow: 1px 0.01em 0.1em #f44; */
     transition: color 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 
@@ -126,6 +130,10 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 900px) {
+    .start-project form {
+        width: 90%;
+    }
+
     .form-div {
         display: block;
         text-align: start;
@@ -143,6 +151,15 @@ input[type=submit]:hover {
     .form-div-right p {
         font-size: 25px;
         text-align: start !important;
+    }
+
+    label {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 14px;
     }
 
     input[type=radio] {
