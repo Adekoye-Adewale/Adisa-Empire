@@ -98,10 +98,9 @@ input[type=radio]:hover {
 }
 
 input[type=radio]:checked {
-    border: #f44;
+ 
     width: 50px;
     box-shadow: 0px 0.01em 0.29em #fff;
-    color: #f44;
 }
 
 input[type=submit] {
