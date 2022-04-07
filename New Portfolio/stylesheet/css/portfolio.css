@@ -52,6 +52,10 @@ body,
   .panel {
     padding: 5px;
   }
+
+  html, body, .container {
+    padding: 5px;
+  }
 }
 
 .left {
