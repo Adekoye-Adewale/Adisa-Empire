@@ -1,4 +1,0 @@
-
-
-[[plugins]]
-package = "./plugins/netlify-purge-cloudflare-on-deploy"
