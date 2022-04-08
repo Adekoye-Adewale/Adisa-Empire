@@ -1,2 +1,5 @@
 [build]
    ignore = "/bin/false"
+
+[[plugins]]
+package = "./plugins/netlify-purge-cloudflare-on-deploy"
